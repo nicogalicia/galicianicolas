@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.fotoCircular {
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    float: left; /* Alinea la imagen a la izquierda */
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
+}
+
+#miFoto {
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    width: 100px; /* Ajusta el ancho de la imagen según tu preferencia */
+    height: 100px; /* Ajusta la altura de la imagen según tu preferencia */
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos específicos */
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Estilos para los enlaces de correo electrónico */
+footer a[href^="mailto"] {
+    color: #ff9900; /* Cambia el color según tu preferencia */
+}
+
+/* Estilos para los enlaces de teléfono */
+footer a[href^="https://wa.me"] {
+    color: #ff9900; /* Cambia el color según tu preferencia */
+}
