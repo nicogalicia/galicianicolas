@@ -97,13 +97,28 @@ footer a[href^="https://wa.me"] {
         padding: 10px;
     }
 
+    nav ul {
+        text-align: center;
+    }
+
     nav ul li {
         display: block;
         margin: 10px 0;
+        text-align: center;
     }
 
     .fotoCircular, #miFoto {
         float: none;
-        margin-right: 0;
+        margin: 0 auto 10px auto;
+        display: block;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    ul {
+        margin-left: 0;
+        padding-left: 0;
     }
 }
