@@ -29,16 +29,16 @@ nav ul li {
 }
 
 .fotoCircular {
-    border-radius: 50%; /* Hace que la imagen sea circular */
-    float: left; /* Alinea la imagen a la izquierda */
-    margin-right: 20px; /* Espacio a la derecha de la imagen */
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
 }
 
 #miFoto {
-    border-radius: 50%; /* Hace que la imagen sea circular */
-    width: 100px; /* Ajusta el ancho de la imagen según tu preferencia */
-    height: 100px; /* Ajusta la altura de la imagen según tu preferencia */
-    margin-right: 20px; /* Espacio a la derecha de la imagen */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
 }
 
 main {
@@ -83,10 +83,27 @@ nav a:hover {
 
 /* Estilos para los enlaces de correo electrónico */
 footer a[href^="mailto"] {
-    color: #ff9900; /* Cambia el color según tu preferencia */
+    color: #ff9900;
 }
 
 /* Estilos para los enlaces de teléfono */
 footer a[href^="https://wa.me"] {
-    color: #ff9900; /* Cambia el color según tu preferencia */
+    color: #ff9900;
+}
+
+/* Media query para pantallas pequeñas (dispositivos móviles) */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .fotoCircular, #miFoto {
+        float: none;
+        margin-right: 0;
+    }
 }
