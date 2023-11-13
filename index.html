@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Vincula HTML con css -->
+    <script src="script.js"></script>  <!-- Vincula HTML con js -->
     <title>Mi CV</title>
 </head>
 <body>
     <header>
-        <h1>Galicia Moreno Nicolás TEST</h1>
+        <h1>Galicia Moreno Nicolás</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -16,6 +17,7 @@
                 <li><a href="#experiencias">Experiencias</a></li>
                 <li><a href="#estudios">Estudios</a></li>
                 <li><a href="#contacto">Datos de Contacto</a></li>
+                <button id="modoToggle">Cambiar Modo</button> <!-- Botón para tomar evento js -->
             </ul>
         </nav>
         <section id="home">
@@ -26,30 +28,33 @@
     <main>
         <section id="home">
             <h2>Acerca de mí</h2>
-            <p>Actualmente me desempeño como desarrollador ABAP Jr. en la empresa Process Technologies. Estudio Lic. en Sistemas en la UADE, cursando el Tercer año de la carrera. Soy una persona analítica que se orienta al cumplimiento de objetivos y los nuevos desafíos. Soy exigente, metódico, organizado y poseo gran adaptabilidad a los cambios y nuevos proyectos. Orientado al trabajo en equipo.</p>
+            <p>Actualmente me desempeño como desarrollador ABAP Jr. en la empresa Process Technologies. Estudio la Licenciatura en Sistemas en la UADE, actualmente cursando el Tercer año de la carrera. Soy una persona analítica que se orienta al cumplimiento de objetivos y los nuevos desafíos. Soy exigente, metódico, organizado y poseo gran adaptabilidad a los cambios y nuevos proyectos. Orientado al trabajo en equipo.</p>
         </section>
         <section id="habilidades">
             <h2>Habilidades</h2>
             <ul>
-                <li>Microsoft Office</li>
+                <li>ABAP</li>
+                <li>Java</li>
                 <li>JavaScript</li>
+                <li>Python</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>Java</li>
-                <li>ABAP</li>
-                <li>Manejo de Equipos</li>
+                <li>GitHub</li>
+                <li>Microsoft Office</li>
+                <li>Gestión de Equipos</li>
+                <li>Jira</li>
             </ul>
         </section>
         <section id="experiencias">
-            <h2>Experiencias</h2>
+            <h2>Experiencias Laborales</h2>
             <article>
                 <h3>Desarrollador SAP ABAP Jr.</h3>
                 <ul>
                     <li>Desarrollador SAP ABAP Jr.</li>
                     <li>Process Technologies · Jornada completa</li>
-                    <li>dic. 2022 - actualidad · 10 meses</li>
+                    <li>dic. 2022 - actualidad · 11 meses</li>
                     <li>En remoto</li>
-                    <li>Aptitudes: Desarrollo ABAP</li>
+                    <li>Aptitudes: Desarrollo correctivo y evolutivo SAP ABAP</li>
                 </ul>
             </article>
             <article>
@@ -65,18 +70,30 @@
                 <h3>Team Leader Técnico Residencial</h3>
                 <ul>
                     <li>Jornada Parcial</li>
-                    <li>may. 2014 - abr. 2018 4 años</li>
+                    <li>may. 2014 - abr. 2018 · 4 años</li>
                     <li>Buenos Aires y alrededores</li>
                     <li>Aptitudes: Liderazgo de equipos de 25 personas, Microsoft Office, Dirección y desarrollo de equipos de trabajo, Gestión de proyectos, Soporte Técnico</li>
                 </ul>
             </article>
-            <!-- Otros trabajos aquí -->
+            <article>
+                <h3>Operador Call-Center</h3>
+                <ul>
+                    <li>Jornada Parcial</li>
+                    <li>abr. 2013 - may. 2014 · 1 año</li>
+                    <li>Buenos Aires y alrededores</li>
+                    <li>Aptitudes: Atención telefónica de clientes residenciales y corporativos, tanto
+                        de consultas técnicas como administrativas.
+                    </li>
+                </ul>
+            </article>
         </section>
         <section id="estudios">
             <h2>Estudios</h2>
             <ul>
                 <li>Lic. en Gestión de Tecnologías, Facultad UADE, Cursando Tercer Año </li>
                 <li>Curso desarrollo full stack codo a codo - 2021</li>
+                <li>Curso Técnico SAP ABAP - 2022</li>
+                <li>Curso Inglés Técnico - Cursando Actualmente</li>
             </ul>
         </section>
     </main>
